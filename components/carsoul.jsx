@@ -19,7 +19,7 @@ const Index = () => {
                             <Slide index={0}>
                                 <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
-                                        <img src="/images/image-1.jpg" alt="thisguy" className="object-center object-cover w-full h-full style={{ resizeMode: 'contain' }}" />
+                                        <img size src="/images/image-1.jpg" alt="thisguy" style={{width: 200, height: 200, position: 'absolute'}} />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>

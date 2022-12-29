@@ -7,20 +7,15 @@ const people = [
     role: 'Owner',
     email: 'bigskylogos@comcast.net',
     telephone: '+1-925-778-3452',
+    imageUrl:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
   },
-  {
-    name: 'Bill Brannon',
-    title:'King',
-    role: 'Owner',
-    email: 'bigskylogos@comcast.net',
-    telephone: '+1-925-778-3452',
-  }
+  // More people...
 ]
 
-export default function Example() {
+export default function BillCath() {
   return (
-    <div  className='flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img'>
-    <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <ul role="list" className="justify-center grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       {people.map((person) => (
         <li
           key={person.email}
@@ -65,6 +60,5 @@ export default function Example() {
         </li>
       ))}
     </ul>
-    </div>
   )
 }

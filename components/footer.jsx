@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="space-y-8 xl:col-span-1">
             <img
               className="h-10"
-              src="https://tailwindui.com/img/logos/mark.svg?color=gray&shade=300"
+              src="https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/301149336_481039217361670_2148832614425490518_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Gz5j2G929A4AX90IPxJ&_nc_ht=scontent-sjc3-1.xx&oh=00_AfAdjzDiJhc3Uijh-tP9n_34Y8afWtHJcca_ks7zl9MEVA&oe=63B1F45E"
               alt="Company name"
             />
             <p className="text-base text-gray-500">
